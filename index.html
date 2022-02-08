@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Contact Form</title>
+   </head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">lorem ipsum</div>
+          <div class="text-two">India</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">99999-99999</div>
+          <div class="text-two">12345-67890</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">abc@gmail.com</div>
+          <div class="text-two">xyx@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" id="email" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+          <input type="text" id="msg" placeholder="Enter your message">
+        </div>
+        <div class="button">
+          <input type="button" id="submit" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+  <script  src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+  <script  src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
